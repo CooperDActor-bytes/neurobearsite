@@ -3,45 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeuroBear - SaltyMedia</title>
+    <title>[Your YouTube Name]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to NeuroBear!</h1>
-        <p>Your go-to channel for [Topic/Genre].</p>
+    <header class="hero">
+        <h1>[Your YouTube Name]</h1>
+        <p>The BIGGEST, BOLDEST content on [Your Topic]!</p>
+        <a href="https://youtube.com/yourchannel" target="_blank" class="cta">Subscribe Now</a>
     </header>
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#videos">Videos</a></li>
+            <li><a href="#shorts">Shorts</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#milestones">Milestones</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi! I'm Neuro, a content creator passionate about [Topic].</p>
-    </section>
-    <section id="videos">
-        <h2>Latest Videos</h2>
-        <div class="video-grid">
-            <div class="video">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
-                <p>Video Title 1</p>
+    <main>
+        <section id="about" class="fade-in">
+            <h2>About Me</h2>
+            <p>Welcome to the most exciting channel on the planet! I’m <strong>[Your Name]</strong>, your guide to all things [Your Niche]. Join me for epic videos that will blow your mind!</p>
+        </section>
+        <section id="videos" class="fade-in">
+            <h2>Latest Videos</h2>
+            <div id="video-list" class="video-grid">
+                <!-- Video content will be inserted dynamically -->
             </div>
-            <div class="video">
-                <iframe src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
-                <p>Video Title 2</p>
+        </section>
+        <section id="shorts" class="fade-in">
+            <h2>Latest Shorts</h2>
+            <div id="shorts-list" class="video-grid">
+                <!-- Shorts content will be inserted dynamically -->
             </div>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:neuro@saltymedia.stream">neuro@saltymedia.stream</a></p>
-        <p>Follow me on <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a> or <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>.</p>
-    </section>
+        </section>
+        <section id="testimonials" class="fade-in">
+            <h2>What My Fans Are Saying</h2>
+            <div class="testimonial">
+                <p>"This channel is a game-changer! I learn something new every time." - <em>Fan 1</em></p>
+            </div>
+            <div class="testimonial">
+                <p>"The content is always fresh and exciting. Keep it up!" - <em>Fan 2</em></p>
+            </div>
+        </section>
+        <section id="milestones" class="fade-in">
+            <h2>Channel Milestones</h2>
+            <div class="milestone">
+                <p><strong>{dyn}</strong> Subscribers - Thank you for the support!</p>
+            </div>
+            <div class="milestone">
+                <p><strong>{dyn}+</strong> Videos Uploaded - A journey of creativity!</p>
+            </div>
+        </section>
+        <section id="contact" class="fade-in">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>Follow me on <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a> and <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>.</p>
+        </section>
+    </main>
     <footer>
-        <p>© 2024 SaltyMedia. All Rights Reserved.</p>
+        <p>© 2024 [Your YouTube Name]. The BIGGEST and BEST!</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
